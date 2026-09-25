@@ -141,15 +141,16 @@ Need more? The **Pro version** adds 13 features:
 
 = 1.3.1 =
 
-This is an enhanced version of 1.3.0. It implements some of the pro
-features.
+This is an enhanced version of store-file-uploads-for-contact-form-7
+(version 1.3.0). It implements some of the pro features.
 
 1. Normalize file names. File names can only contain letters in the
    set: [a-zA-Z0-9.-_]. Convert any letters not in the set to a "_".
 2. Only graphic files are allowed. Log skipped files.
 3. Avoid overwriting existing files, by appending "_N" to base name.
 
-The code:
+The code: https://github.com/TurtleEngr/WP-store-cf7-file-uploads was
+forked from:
 https://github.com/TurtleEngr/WP-store-file-uploads-for-contact-form-7/tree/tags-1.3.0
-was forked to:
-https://github.com/TurtleEngr/WP-store-cf7-file-uploads
+(and that was copied from:
+https://plugins.svn.wordpress.org/store-file-uploads-for-contact-form-7/tags/1.3.0/
